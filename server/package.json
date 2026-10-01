@@ -1,0 +1,14 @@
+{
+  "name": "tripwire-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Flat Node/Express backend for Tripwire's phone verification and bounded escalation calls.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "twilio": "^5.0.0"
+  }
+}
