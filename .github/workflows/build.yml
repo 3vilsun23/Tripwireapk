@@ -18,6 +18,9 @@ jobs:
       - name: Install npm dependencies
         run: npm install
 
+      - name: Install TypeScript
+        run: npm install -D typescript
+
       - name: Sync Capacitor Android project
         run: npx cap sync android
 
